@@ -1,0 +1,98 @@
+/* ! base start  */
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap");
+/* google fonts */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/* bootstrap CDN */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ! base end */
+
+/* ! header start  */
+
+header {
+  border-bottom: 1px solid #dee0ea;
+}
+
+.global-notification {
+  background-color: #1367ef;
+  padding: 14px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+
+.global-notification a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.header-row {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* itemlerin yan yana dizilmelerini sağlar */
+  align-items: center;
+}
+
+.header-left .logo {
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+}
+
+.header-center .navigation .menu-list {
+  display: flex;
+  column-gap: 30px;
+  /* itemlerin birbirinden ayrılmasını sağlar */
+  align-items: center;
+}
+
+.header-center .menu-list .menu-link {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.header-center .menu-list i {
+  font-size: 12px;
+}
+/* ! header end  */
