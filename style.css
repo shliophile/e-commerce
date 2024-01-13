@@ -404,22 +404,49 @@ header .menu-dropdown-content a:hover {
 .modal-search .results {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: 1px solid #dee0ea;
+  border-left: 1px solid #dee0ea;
 }
 
-.modal-search .results .result-item {
+.modal-search .result-item {
   display: flex;
   column-gap: 15px;
   align-items: center;
   padding: 15px;
   border-bottom: 1px solid #dee0ea;
   border-right: 1px solid #dee0ea;
-  transition: background-color 0.2s eae;
+  transition: background-color 0.2s ease;
 }
 
-.modal-search .result-item .search-thumb {
+.modal-search .result-item:hover {
+  background-color: #f9f9f9;
+}
+
+.modal-search .search-thumb {
   max-width: 65px;
   width: 100%;
 }
 
-/* ? modal search end*/
+.modal-search .search-info {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.modal-search .search-sku {
+  color: #7a7a7a;
+  margin: 2px 0;
+}
+
+.modal-search .search-price {
+  font-weight: 600;
+  color: #dc3545;
+}
+
+.modal-search .bi-x-circle {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* ? modal search end */
