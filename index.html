@@ -3,25 +3,30 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-commerce</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>E-Commerce</title>
+    <!--! Boostrap Icons CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
-    <!-- ! header start -->
+    <!--! header start  -->
     <header>
         <div class="global-notification">
             <p>
-                SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INERNATIONAL DELIVERY
-                . OFF 50%
+                SUMMER SALE FOR ALL SWIM SUITS AND FREE EXPRESS INTERNATIONAL DELIVERY
+                - OFF 50%!
                 <a href="shop.html">SHOP NOW</a>
             </p>
         </div>
-        <!-- indirim bildirimi -->
         <div class="header-row">
             <div class="container">
                 <div class="header-wrapper">
+                    <div class="header-mobile">
+                        <i class="bi bi-list"></i>
+                    </div>
                     <div class="header-left">
                         <a href="#" class="logo">LOGO</a>
                     </div>
@@ -29,7 +34,7 @@
                         <nav class="navigation">
                             <ul class="menu-list">
                                 <li class="menu-list-item">
-                                    <a href="#" class="menu-link">
+                                    <a href="#" class="menu-link active">
                                         Home
                                         <i class="bi bi-chevron-down"></i>
                                     </a>
@@ -66,7 +71,7 @@
                                     </div>
                                 </li>
                                 <li class="menu-list-item megamenu-wrapper">
-                                    <a href="#" class="menu-link ">
+                                    <a href="#" class="menu-link">
                                         Shop
                                         <i class="bi bi-chevron-down"></i>
                                     </a>
@@ -74,7 +79,7 @@
                                         <div class="menu-dropdown-megamenu">
                                             <div class="megamenu-links">
                                                 <div class="megamenu-products">
-                                                    <h3 class="megamenu-product-title">
+                                                    <h3 class="megamenu-products-title">
                                                         Shop Style
                                                     </h3>
                                                     <ul class="megamenu-menu-list">
@@ -88,7 +93,7 @@
                                                             <a href="#">Shop Only Categories</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Shop İmage Categories</a>
+                                                            <a href="#">Shop Image Categories</a>
                                                         </li>
                                                         <li>
                                                             <a href="#">Shop Sub Categories</a>
@@ -108,7 +113,7 @@
                                                     </ul>
                                                 </div>
                                                 <div class="megamenu-products">
-                                                    <h3 class="megamenu-product-title">
+                                                    <h3 class="megamenu-products-title">
                                                         Filter Layout
                                                     </h3>
                                                     <ul class="megamenu-menu-list">
@@ -127,7 +132,7 @@
                                                     </ul>
                                                 </div>
                                                 <div class="megamenu-products">
-                                                    <h3 class="megamenu-product-title">
+                                                    <h3 class="megamenu-products-title">
                                                         Shop Loader
                                                     </h3>
                                                     <ul class="megamenu-menu-list">
@@ -135,7 +140,7 @@
                                                             <a href="#">Shop Pagination</a>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Shop Infinitiy</a>
+                                                            <a href="#">Shop Infinity</a>
                                                         </li>
                                                         <li>
                                                             <a href="#">Shop Load More</a>
@@ -151,7 +156,6 @@
                                                         </li>
                                                     </ul>
                                                 </div>
-
                                             </div>
                                             <div class="megamenu-single">
                                                 <a href="#">
@@ -160,7 +164,7 @@
                                                 <h3 class="megamenu-single-title">JOIN THE LAYERING GANG</h3>
                                                 <h4 class="megamenu-single-subtitle">Suspendisse faucibus nunc et
                                                     pellentesque</h4>
-                                                <a href="#" class="megamenu-single-button btn btn-sm">SHOP NOW</a>
+                                                <a href="#" class="megamenu-single-button btn btn-sm">Shop Now</a>
                                             </div>
                                         </div>
                                     </div>
@@ -179,6 +183,7 @@
                                 </li>
                             </ul>
                         </nav>
+                        <i class="bi-x-circle"></i>
                     </div>
                     <div class="header-right">
                         <div class="header-right-links">
@@ -203,16 +208,15 @@
             </div>
         </div>
     </header>
-    <!-- ! header end   -->
+    <!--! header end  -->
 
-    <!-- ! modal search start -->
-
+    <!--! modal search start  -->
     <div class="modal-search">
         <div class="modal-wrapper">
-            <h3 class="modal-title"> Search For Product..</h3>
-            <p class="modal-text">Start typing to see products you are looking for. </p>
+            <h3 class="modal-title">Search for products</h3>
+            <p class="modal-text">Start typing to see products you are looking for.</p>
             <form class="search-form">
-                <input type="text" placeholder="Search a Product">
+                <input type="text" placeholder="Search a product">
                 <button>
                     <i class="bi bi-search"></i>
                 </button>
@@ -225,8 +229,8 @@
                     <a href="#" class="result-item">
                         <img src="img/products/product1/1.png" class="search-thumb" alt="">
                         <div class="search-info">
-                            <h4>Analogue resin strap</h4>
-                            <span class="search-sku">SKU:PD0016</span>
+                            <h4>Analogue Resin Strap</h4>
+                            <span class="search-sku">SKU: PD0016</span>
                             <span class="search-price">$108.00</span>
                         </div>
                     </a>
@@ -238,33 +242,53 @@
                             <span class="search-price">$108.00</span>
                         </div>
                     </a>
-                    <a href="#" class="result-item">
-                        <img src="img/products/product3/1.png" class="search-thumb" alt="">
-                        <div class="search-info">
-                            <h4>Analogue Resin Strap</h4>
-                            <span class="search-sku">SKU: PD0016</span>
-                            <span class="search-price">$108.00</span>
-                        </div>
-                    </a>
-                    <a href="#" class="result-item">
-                        <img src="img/products/product4/1.png" class="search-thumb" alt="">
-                        <div class="search-info">
-                            <h4>Analogue Resin Strap</h4>
-                            <span class="search-sku">SKU: PD0016</span>
-                            <span class="search-price">$108.00</span>
-                        </div>
-                    </a>
                 </div>
-                <i class="bi bi-x-circle"></i>
+            </div>
+            <i class="bi bi-x-circle"></i>
+        </div>
+    </div>
+    <!--! modal search end  -->
+
+    <!--! slider start   -->
+    <section class="slider">
+        <div class="slider-elements">
+            <div class="slider-item">
+                <div class="slider-image">
+                    <img src="img/slider/slider1.jpg" alt="">
+                </div>
+                <div class="container">
+                    <p class="slider-title">SUMMER 2022</p>
+                    <h2>Save up to 70%</h2>
+                    <a href="#" class="btn btn-lg btn-primary">Explore Now</a>
+                </div>
+
+                <div class="slider-buttons">
+                    <button>
+                        <i class="bi bi-checron-left"></i>
+                    </button>
+                    <button>
+                        <i class="bi bi-checron-right"></i>
+                    </button>
+                </div>
+
+                <div class="slider-dots">
+                    <button class="slider-dot">
+                        <span></span>
+                    </button>
+                    <button class="slider-dot">
+                        <span></span>
+                    </button>
+                    <button class="slider-dot">
+                        <span></span>
+                    </button>
+                </div>
+
             </div>
         </div>
+    </section>
+    <!--! slider end   -->
 
-
-
-
-        <!-- ! modal search end-->
-
-
+    </div>
 </body>
 
 </html>
