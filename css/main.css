@@ -6,6 +6,8 @@
 
 /*! components  */
 @import url(components/modal-search.css);
-
-/* ! sliders */
+@import url(components/category-item.css);
 @import url(components/slider.css);
+
+/* ! pages */
+@import url(pages/home.css);

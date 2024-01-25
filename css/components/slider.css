@@ -94,4 +94,8 @@
   .slider-item {
     height: calc(100vh - 155px);
   }
+
+  .slider-buttons {
+    display: none !important;
+  }
 }

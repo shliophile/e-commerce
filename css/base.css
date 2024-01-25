@@ -10,6 +10,11 @@
   box-sizing: border-box;
   font-family: "Jost", sans-serif;
 }
+
+body {
+  overflow-x: hidden;
+}
+
 ul,
 ol {
   margin: 0;
