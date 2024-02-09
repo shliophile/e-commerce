@@ -17,7 +17,7 @@
   display: flex;
   gap: 30px;
   margin-top: 30px;
-  flex: wrap !important;
+  flex: wrap;
 }
 /* ! categories end */
 
@@ -32,3 +32,12 @@
   flex-wrap: wrap;
 }
 /* !products end */
+
+/*! campaign start */
+.campaigns .campaign-wrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/*! campaign end */
