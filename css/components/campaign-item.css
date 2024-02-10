@@ -35,6 +35,9 @@
   flex: 3;
 }
 
-@media (max-width: 768px){
-    .campaigns .campaign-item
-} 
+@media (max-width: 768px) {
+  .campaigns .campaign-item {
+    width: 100%;
+    flex: unset !important;
+  }
+}
